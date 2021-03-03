@@ -36,7 +36,6 @@ function mostrar() {
 	var tipodelMascaro;
 	var mardelmascaro;
 	var marca;
-
 	cantidadTotal = 0;
 	totalAlcohol = 0;
 	totalIac = 0;
@@ -104,7 +103,7 @@ function mostrar() {
 
 					}
 				} while (productos != opcProductos);
-				validacionCantidad = true
+				validacionCantidad = false;
 			} else {
 				alert("Ingrese una cantidad valida mayor 0 menor a 1000");
 			}

@@ -135,9 +135,6 @@ function mostrar() {
   } else {
     alert("Se esta grabando esta informacion")
   }
-  // El promedio de nota por sexo
-
-
   switch (sexo) {
     case "masculino":
       promediomasculinonota = nota;
@@ -155,8 +152,6 @@ function mostrar() {
   promediofinalmasculino = promediomasculino % promediodemateriasfemenino;
   promediofinalfemenino = promediofemenino % promediodemateriasmasculino;
   promediofinalnobinario = promedionobinario % promediodemateriasnobinario;
-
-  // La edad y nombre del que cursa mas materias que no sean en forma remota
 
   document.write("El nombre del mejor promedio que no sea masculino" + nombremasjoven + "El nombre del mas joven de los alumnos entre los que la dan libre" + nombremasjoven + "El promedio de nota por sexo" + "masculino: " + promediofinalmasculino + " femenino: " + promediofinalfemenino + "no binario: " + promediofinalnobinario + "La edad y nombre del que cursa mas materias que no sean en forma remota")
 
