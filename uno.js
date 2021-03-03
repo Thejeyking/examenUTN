@@ -53,20 +53,20 @@ function mostrar() {
 			switch (productos) {
 				case "ALCOHOL":
 					opcProductos = productos;
-					cantidadAlcohol = + 1;
-					cantidadTotal = + 1;
+					cantidadAlcohol =cantidadAlcohol + 1;
+					cantidadTotal =cantidadTotal + 1;
 
 					break;
 				case "IAC":
 					opcProductos = productos;
-					cantidadIac = + 1;
-					cantidadTotal = + 1;
+					cantidadIac =cantidadIac + 1;
+					cantidadTotal =cantidadTotal + 1;
 
 					break;
 				case "QUAT":
 					opcProductos = productos;
-					cantidadQuat = + 1;
-					cantidadTotal = + 1;
+					cantidadQuat = cantidadQuat + 1;
+					cantidadTotal =cantidadTotal + 1;
 					break;
 
 				default:
